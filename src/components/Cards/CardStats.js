@@ -35,15 +35,15 @@ export default function CardStats({
               </div>
             </div>
           </div>
-          <p className="text-sm text-blueGray-400 mt-4">
+          <p className="text-sm text-blueGray-400 mt-4 hidden">
             <span className={statPercentColor + " mr-2"}>
               <i
                 className={
                   statArrow === "up"
                     ? "fas fa-arrow-up"
                     : statArrow === "down"
-                    ? "fas fa-arrow-down"
-                    : ""
+                      ? "fas fa-arrow-down"
+                      : ""
                 }
               ></i>{" "}
               {statPercent}%
@@ -62,7 +62,7 @@ CardStats.defaultProps = {
   statArrow: "up",
   statPercent: "3.48",
   statPercentColor: "text-emerald-500",
-  statDescripiron: "Since last month",
+  statDescripiron: "Since last week",
   statIconName: "far fa-chart-bar",
   statIconColor: "bg-red-500",
 };

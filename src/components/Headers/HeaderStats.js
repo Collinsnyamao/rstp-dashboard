@@ -20,14 +20,14 @@ export default function HeaderStats() {
                   statArrow="up"
                   statPercent="3.48"
                   statPercentColor="text-emerald-500"
-                  statDescripiron="Since last month"
+                  statDescripiron="Since last week"
                   statIconName="far fa-chart-bar"
                   statIconColor="bg-red-500"
                 />
               </div>
               <div className="w-full lg:w-6/12 xl:w-3/12 px-4">
                 <CardStats
-                  statSubtitle="NEW USERS"
+                  statSubtitle="new requests"
                   statTitle="2,356"
                   statArrow="down"
                   statPercent="3.48"
@@ -39,7 +39,7 @@ export default function HeaderStats() {
               </div>
               <div className="w-full lg:w-6/12 xl:w-3/12 px-4">
                 <CardStats
-                  statSubtitle="SALES"
+                  statSubtitle="network pings"
                   statTitle="924"
                   statArrow="down"
                   statPercent="1.10"
@@ -51,10 +51,10 @@ export default function HeaderStats() {
               </div>
               <div className="w-full lg:w-6/12 xl:w-3/12 px-4">
                 <CardStats
-                  statSubtitle="PERFORMANCE"
-                  statTitle="49,65%"
+                  statSubtitle="STREAMS"
+                  statTitle="4"
                   statArrow="up"
-                  statPercent="12"
+                  statPercent=""
                   statPercentColor="text-emerald-500"
                   statDescripiron="Since last month"
                   statIconName="fas fa-percent"
