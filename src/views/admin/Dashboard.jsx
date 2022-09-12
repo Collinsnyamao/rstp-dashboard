@@ -8,7 +8,7 @@ import CardBarChart from "components/Cards/CardBarChart";
 
 class Dashboard extends Component {
   state = {
-    src: "http://localhost:8083/stream/pattern/channel/0/mse/live/index.m3u8",
+    src: "http://localhost:8083/stream/pattern/channel/0/hls/live/index.m3u8",
   };
 
   setSrc = (src) => {
