@@ -1,7 +1,7 @@
 {
   "name": "rstp-service",
-  "version": "1.1.0",
-  "description": "RSTP dashboard service",
+  "version": "1.1.1",
+  "description": "RSTP dashboard service.",
   "repository": "https://github.com/Collinsnyamao/rstp-dashboard.git",
   "license": "MIT",
   "dependencies": {
