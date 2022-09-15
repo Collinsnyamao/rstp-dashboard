@@ -17,6 +17,8 @@
     "chart.js": "2.9.4",
     "gulp": "4.0.2",
     "gulp-append-prepend": "1.0.8",
+    "igniteui-react-core": "^16.16.3",
+    "igniteui-react-gauges": "^16.16.3",
     "postcss": "8.2.8",
     "react": "17.0.1",
     "react-dom": "17.0.1",
